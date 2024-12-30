@@ -163,7 +163,7 @@ local function s()
                         game.Workspace["Weakest Dummy"]:Destroy()
 
                         task.delay(
-                            0.26,
+                            0.45,
                             function()
                                 local l = game.ReplicatedStorage.Resources.KJEffects.DropkickExtra.lastimpact
                                 local c = l:Clone()
