@@ -205,19 +205,6 @@ task.wait(0.44)
                         end
                     )
 
-                    local p = game.Players.LocalPlayer
-                    local hrp = p.Character:WaitForChild("HumanoidRootPart")
-
-                    local s1 = Instance.new("Sound")
-                    s1.SoundId = "rbxassetid://17420207822"
-                    s1.Parent = hrp
-                    s1:Play()
-
-                    local s2 = Instance.new("Sound")
-                    s2.SoundId = "rbxassetid://17429102979"
-                    s2.Parent = hrp
-                    s2:Play()
-
                     return
                 end
                 local sn = math.ceil(t * 60)
