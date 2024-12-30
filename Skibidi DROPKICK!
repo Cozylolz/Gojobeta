@@ -137,7 +137,7 @@ local function s()
                             c:Stop()
                         end
 
-task.wait(0.44)
+task.wait(0.22)
 
                         ch.Cam:Destroy()
 
