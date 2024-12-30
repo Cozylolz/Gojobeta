@@ -137,6 +137,8 @@ local function s()
                             c:Stop()
                         end
 
+task.wait(0.44)
+
                         ch.Cam:Destroy()
 
                         local a = game.Players.LocalPlayer.Character or game.Players.LocalPlayer.CharacterAdded:Wait()
